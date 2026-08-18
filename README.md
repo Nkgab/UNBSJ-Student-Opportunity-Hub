@@ -1,49 +1,43 @@
-# SIS Student Opportunity Hub
+# SIS Student Opportunity Hub - Version 2
 
-A simple, free, mobile-friendly opportunity directory for The Self Improvement Society at UNB Saint John.
+This version uses the official Self Improvement Society logo supplied by the society.
 
-## How to use it
+## Files
+- index.html = website design
+- opportunities.js = opportunity database
+- sis-logo.png = SIS logo
 
-1. Open `opportunities.js`.
-2. Replace the sample opportunities with your real opportunities.
-3. For each opportunity, add:
-   - title
-   - organization
-   - category
-   - location
-   - type
-   - description
-   - application/link
-4. Open `index.html` in your browser to test it.
+## Main structure
+01 | Volunteer Opportunities
+Organizations + what they offer + who it's suitable for + links
 
-## Put it online with GitHub Pages
+02 | Certificates & Training
+Free/discounted options first
 
-1. Create a new GitHub repository, for example `SIS-Opportunity-Hub`.
-2. Upload `index.html` and `opportunities.js`.
-3. Go to Settings → Pages.
-4. Select "Deploy from a branch".
-5. Select the `main` branch and `/root`.
-6. Save.
-7. GitHub will give you a public website link.
+03 | Courses & Learning
+Online + local opportunities
 
-## Adding new opportunities
+04 | Jobs & Internships
+05 | Scholarships & Awards
+06 | Leadership & Campus Opportunities
+07 | Career & Academic Resources
 
-The easiest method is to edit the `opportunities` array in `opportunities.js`.
+## To add an opportunity
 
-For example:
+Open opportunities.js and copy an existing object:
 
 {
-  title: "Example Volunteer Role",
-  organization: "Example Organization",
+  title: "Opportunity name",
+  organization: "Organization",
   category: "Volunteer",
   location: "Saint John",
-  type: "Weekly",
-  description: "Short description here.",
+  type: "Mentoring",
+  description: "Short description.",
   link: "https://example.com"
 }
 
-## Recommended long-term setup
+Change the values and save.
 
-Use a Google Form for students/organizations to submit opportunities. Review submissions yourself, then add approved opportunities to `opportunities.js`.
-
-This keeps the public website simple and avoids needing a paid database or AI API.
+## GitHub Pages
+Upload index.html, opportunities.js and sis-logo.png into a GitHub repository.
+Then enable Settings > Pages > Deploy from branch > main > /root.

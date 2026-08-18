@@ -1,167 +1,241 @@
 const opportunities = [
   {
     title: "Promise Partnership",
-    organization: "Community volunteering",
+    organization: "Promise Partnership",
     category: "Volunteer",
     location: "Saint John",
-    type: "Flexible",
-    description: "Add a short description of the organization, what volunteers do, and why it may be useful for students.",
-    link: "https://example.com"
+    type: "Mentoring",
+    description: "Mentor school students and contribute to youth development.",
+    link: "https://www.instagram.com/promisepartnership/"
   },
   {
-    title: "UNB Research Opportunities",
+    title: "Swim with a Mission",
+    organization: "Swim with a Mission",
+    category: "Volunteer",
+    location: "Saint John",
+    type: "Youth & Water Safety",
+    description: "Help teach young people water safety and swimming skills.",
+    link: "https://www.instagram.com/swam.saintjohn/"
+  },
+  {
+    title: "Saint John Newcomers",
+    organization: "Saint John Newcomers Centre",
+    category: "Volunteer",
+    location: "Saint John",
+    type: "Community",
+    description: "Support newcomers and contribute to community inclusion.",
+    link: "https://www.instagram.com/sjnewcomerscentre/"
+  },
+  {
+    title: "PRUDE Inc.",
+    organization: "PRUDE Inc.",
+    category: "Volunteer",
+    location: "Saint John",
+    type: "Community & DEI",
+    description: "Get involved with diversity, equity and inclusion initiatives.",
+    link: "https://prudeinc.org/"
+  },
+  {
+    title: "Sexual Violence New Brunswick",
+    organization: "SVNB",
+    category: "Volunteer",
+    location: "New Brunswick",
+    type: "Community Support",
+    description: "Explore volunteer opportunities and training with SVNB.",
+    link: "https://svnb.ca/en/volunteer/"
+  },
+  {
+    title: "Horizon Health Network",
+    organization: "Horizon Health Network",
+    category: "Volunteer",
+    location: "New Brunswick",
+    type: "Healthcare",
+    description: "Healthcare volunteering opportunities in New Brunswick. Best for students interested in healthcare.",
+    link: "https://careers.horizonnb.ca/en/volunteering/"
+  },
+  {
+    title: "Social Pediatrics NB",
+    organization: "Social Pediatrics NB",
+    category: "Volunteer",
+    location: "New Brunswick",
+    type: "Healthcare & Community",
+    description: "Explore opportunities to support children, youth and community health.",
+    link: "https://www.nbsocialpediatrics.com/"
+  },
+  {
+    title: "UNB Community Volunteering Club",
     organization: "UNB Saint John",
-    category: "Research",
+    category: "Volunteer",
     location: "Saint John",
-    type: "Student",
-    description: "Use this space for research assistant positions, faculty opportunities, summer research programs, or ways to approach professors.",
-    link: "https://www.unb.ca/"
+    type: "Fundraising & Community",
+    description: "Fundraising and community support opportunities through the student club.",
+    link: "https://www.instagram.com/volunteeringunbsj/"
   },
   {
-    title: "UNB Work-Study",
-    organization: "University of New Brunswick",
-    category: "Jobs",
+    title: "Saint John Cares",
+    organization: "Saint John Cares Inc.",
+    category: "Volunteer",
     location: "Saint John",
-    type: "Campus",
-    description: "Campus employment and work-study information for eligible students.",
-    link: "https://www.unb.ca/"
+    type: "Community",
+    description: "Find ways to help others and get involved in the local community.",
+    link: "https://www.stjohnscares.org/ways-to-help-others.html"
   },
   {
-    title: "Scholarship Search",
-    organization: "Student funding",
-    category: "Scholarship",
-    location: "Canada",
-    type: "Funding",
-    description: "Add scholarship details here, including eligibility, deadline, award amount, and application instructions.",
-    link: "https://www.unb.ca/"
+    title: "Volunteer Success",
+    organization: "Volunteer Search Engine",
+    category: "Volunteer",
+    location: "Online",
+    type: "Search Tool",
+    description: "Search for volunteer opportunities using a volunteer opportunity platform.",
+    link: "https://volunteersuccess.com/"
   },
   {
-    title: "Free Online Certificates",
-    organization: "Learning",
+    title: "Greater Saint John Volunteer Connector",
+    organization: "Greater Saint John Volunteer Connector",
+    category: "Volunteer",
+    location: "Saint John",
+    type: "Search Tool",
+    description: "Find volunteer opportunities across Greater Saint John.",
+    link: "https://gsjvolunteer.ca/"
+  },
+  {
+    title: "Be There Certificate",
+    organization: "Be There Certificate",
+    category: "Certificates",
+    location: "Online",
+    type: "Certificate",
+    description: "A certificate option focused on building skills for supporting others.",
+    link: "https://betherecertificate.org/"
+  },
+  {
+    title: "Seeds of Change",
+    organization: "Sexual Violence New Brunswick",
+    category: "Certificates",
+    location: "New Brunswick",
+    type: "Training",
+    description: "Bystander training. The source document notes discounted or free options for UNB students.",
+    link: "https://svnb.ca/"
+  },
+  {
+    title: "DEI Training",
+    organization: "PRUDE Inc.",
+    category: "Certificates",
+    location: "Saint John",
+    type: "Training",
+    description: "Explore diversity, equity and inclusion training opportunities.",
+    link: "https://prudeinc.org/"
+  },
+  {
+    title: "Courses & Learning",
+    organization: "Add your curated courses here",
     category: "Courses",
     location: "Online",
-    type: "Flexible",
-    description: "Collect useful courses and certificates that students can complete alongside their studies.",
+    type: "Learning",
+    description: "Add online and local courses, learning platforms and experiences as you curate them.",
     link: "https://www.coursera.org/"
   },
   {
-    title: "Career Development",
-    organization: "UNB Career Development",
+    title: "Jobs & Internships",
+    organization: "Add curated student opportunities here",
+    category: "Jobs",
+    location: "Canada",
+    type: "Career",
+    description: "Use this section for student jobs, internships and work opportunities.",
+    link: "https://www.unb.ca/"
+  },
+  {
+    title: "Scholarships & Awards",
+    organization: "Add curated funding opportunities here",
+    category: "Scholarships",
+    location: "Canada",
+    type: "Funding",
+    description: "Use this section for scholarships, awards and funding opportunities.",
+    link: "https://www.unb.ca/"
+  },
+  {
+    title: "Leadership & Campus Opportunities",
+    organization: "UNB Saint John",
+    category: "Leadership",
+    location: "Saint John",
+    type: "Leadership",
+    description: "Add campus leadership roles, student societies and other ways to get involved.",
+    link: "https://www.unb.ca/saintjohn/"
+  },
+  {
+    title: "Career & Academic Resources",
+    organization: "UNB",
     category: "Career",
     location: "Saint John",
-    type: "Career",
-    description: "Resume help, LinkedIn support, career advising, workshops and employment resources.",
-    link: "https://www.unb.ca/career/"
+    type: "Resource",
+    description: "Add resume, LinkedIn, academic, career and professional development resources.",
+    link: "https://www.unb.ca/"
   }
 ];
 
-const icons = {
-  Volunteer: "🤝",
-  Research: "🔬",
-  Jobs: "💼",
-  Scholarship: "🎓",
-  Courses: "📚",
-  Career: "🌱"
-};
-
-const grid = document.getElementById("opportunityGrid");
+const grid = document.getElementById("grid");
 const search = document.getElementById("search");
-const categoryFilter = document.getElementById("categoryFilter");
-const locationFilter = document.getElementById("locationFilter");
-const categories = document.getElementById("categories");
+const category = document.getElementById("category");
+const location = document.getElementById("location");
 const count = document.getElementById("count");
 const empty = document.getElementById("empty");
 
-const categoryList = [...new Set(opportunities.map(o => o.category))].sort();
-const locationList = [...new Set(opportunities.map(o => o.location))].sort();
-
-categoryList.forEach(category => {
-  const option = document.createElement("option");
-  option.value = category;
-  option.textContent = category;
-  categoryFilter.appendChild(option);
-});
-
-locationList.forEach(location => {
-  const option = document.createElement("option");
-  option.value = location;
-  option.textContent = location;
-  locationFilter.appendChild(option);
-});
-
-const allButton = document.createElement("button");
-allButton.className = "category active";
-allButton.innerHTML = `<span class="icon">✨</span><span>All</span>`;
-allButton.onclick = () => {
-  categoryFilter.value = "All";
-  render();
-  setActiveCategory(allButton);
+const icons = {
+  Volunteer: "🤝",
+  Certificates: "📜",
+  Courses: "🎓",
+  Jobs: "💼",
+  Scholarships: "🏆",
+  Leadership: "🌱",
+  Career: "📚"
 };
-categories.appendChild(allButton);
 
-categoryList.forEach(category => {
-  const button = document.createElement("button");
-  button.className = "category";
-  button.innerHTML = `<span class="icon">${icons[category] || "⭐"}</span><span>${category}</span>`;
-  button.onclick = () => {
-    categoryFilter.value = category;
+const categories = [...new Set(opportunities.map(o => o.category))].sort();
+const locations = [...new Set(opportunities.map(o => o.location))].sort();
+
+categories.forEach(c => category.add(new Option(c, c)));
+locations.forEach(l => location.add(new Option(l, l)));
+
+document.querySelectorAll("[data-category]").forEach(button => {
+  button.addEventListener("click", () => {
+    category.value = button.dataset.category;
     render();
-    setActiveCategory(button);
-  };
-  categories.appendChild(button);
+    window.scrollTo({ top: document.querySelector(".opportunity-header").offsetTop - 25, behavior: "smooth" });
+  });
 });
-
-function setActiveCategory(active) {
-  document.querySelectorAll(".category").forEach(btn => btn.classList.remove("active"));
-  active.classList.add("active");
-}
 
 function render() {
   const term = search.value.trim().toLowerCase();
-  const selectedCategory = categoryFilter.value;
-  const selectedLocation = locationFilter.value;
+  const selectedCategory = category.value;
+  const selectedLocation = location.value;
 
-  const filtered = opportunities.filter(item => {
-    const matchesSearch =
-      !term ||
-      `${item.title} ${item.organization} ${item.category} ${item.location} ${item.description}`
-        .toLowerCase()
-        .includes(term);
-
-    const matchesCategory =
-      selectedCategory === "All" || item.category === selectedCategory;
-
-    const matchesLocation =
-      selectedLocation === "All" || item.location === selectedLocation;
-
-    return matchesSearch && matchesCategory && matchesLocation;
+  const results = opportunities.filter(o => {
+    const searchable = `${o.title} ${o.organization} ${o.category} ${o.location} ${o.type} ${o.description}`.toLowerCase();
+    return (!term || searchable.includes(term))
+      && (selectedCategory === "All" || o.category === selectedCategory)
+      && (selectedLocation === "All" || o.location === selectedLocation);
   });
 
   grid.innerHTML = "";
 
-  filtered.forEach(item => {
+  results.forEach(o => {
     const card = document.createElement("article");
     card.className = "card";
-
     card.innerHTML = `
-      <span class="tag">${icons[item.category] || "⭐"} ${item.category}</span>
-      <h3>${escapeHtml(item.title)}</h3>
-      <div class="org">${escapeHtml(item.organization)}</div>
-      <p>${escapeHtml(item.description)}</p>
+      <span class="tag">${icons[o.category] || "⭐"} ${escapeHtml(o.category)}</span>
+      <h3>${escapeHtml(o.title)}</h3>
+      <div class="org">${escapeHtml(o.organization)}</div>
+      <p>${escapeHtml(o.description)}</p>
       <div class="meta">
-        <span>📍 ${escapeHtml(item.location)}</span>
-        <span>⏱ ${escapeHtml(item.type)}</span>
+        <span>📍 ${escapeHtml(o.location)}</span>
+        <span>✦ ${escapeHtml(o.type)}</span>
       </div>
-      <a class="apply" href="${item.link}" target="_blank" rel="noopener">
-        View opportunity →
-      </a>
+      <a class="apply" href="${o.link}" target="_blank" rel="noopener">Apply / Learn More →</a>
     `;
-
     grid.appendChild(card);
   });
 
-  count.textContent = `${filtered.length} ${filtered.length === 1 ? "opportunity" : "opportunities"}`;
-  empty.style.display = filtered.length ? "none" : "block";
+  count.textContent = `${results.length} ${results.length === 1 ? "opportunity" : "opportunities"}`;
+  empty.style.display = results.length ? "none" : "block";
 }
 
 function escapeHtml(value) {
@@ -174,18 +248,7 @@ function escapeHtml(value) {
 }
 
 search.addEventListener("input", render);
-
-categoryFilter.addEventListener("change", () => {
-  const active = [...document.querySelectorAll(".category")]
-    .find(btn => btn.textContent.toLowerCase().includes(categoryFilter.value.toLowerCase()));
-  if (categoryFilter.value === "All") {
-    setActiveCategory(allButton);
-  } else if (active) {
-    setActiveCategory(active);
-  }
-  render();
-});
-
-locationFilter.addEventListener("change", render);
+category.addEventListener("change", render);
+location.addEventListener("change", render);
 
 render();
